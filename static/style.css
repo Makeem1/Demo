@@ -1,0 +1,30 @@
+.container {
+    background-color: blanchedalmond;
+    text-align: center;
+    height: 100%;
+    width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: medium;
+}
+
+.form_group {
+    margin-top: 30px;
+    background-color: brown;
+    text-align: center;
+    height: 350px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container p {
+    padding-right: 100px;
+    padding-left:100px ;
+}
+
+
+.name {
+    padding-top: 30px;
+}
+

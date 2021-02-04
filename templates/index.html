@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container ">
+        <h1>Welcome to Ping</h1>
+        <p>Ping! helps you set reminder or send messages to your future self with ease and convinience. 
+            All you have to do is to fill in your details below and choose a duration after which the message will be sent. </p>
+
+        <form action="" method="post">
+            {{ form.hidden_tag() }}
+            <div>
+                {{form.firstname.label}} {{form.firstname}} 
+            </div>
+            <div>
+                {{form.lastname.label}} {{form.lastname}}
+            </div>
+            <div>
+                {{form.message.label}} {{form.message}}
+            </div>
+            <div>
+                {{form.duration.label}} {{form.duration}}
+            </div>
+            <div>
+                {{form.duration_unit.label}} {{form.duration_unit}}
+            </div>
+            <div> 
+                {{form.submit}}
+            </div>         
+        </form>
+
+
+    </div>
+
+
+
+</body>
+</html>
